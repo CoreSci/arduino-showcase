@@ -1,0 +1,6 @@
+<Directory /usr/lib/cgi-bin>
+
+Options +ExecCGI
+AddHandler cgi-script .cgi .sh
+
+</Directory>

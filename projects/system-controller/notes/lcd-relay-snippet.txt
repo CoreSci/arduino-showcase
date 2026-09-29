@@ -1,0 +1,15 @@
+sensors.requestTemperatures();
+      lcd.setCursor ( 0, 0 );
+      lcd.print("TEMP : ");
+      lcd.setCursor ( 7, 0 );
+      lcd.print(sensors.getTempCByIndex(0));
+      lcd.setCursor ( 12, 0 );
+      lcd.print(" oC");
+      
+      digitalWrite(RELAY1, HIGH);
+      lcd.setCursor ( 0, 1 );
+      lcd.print("PUMP : OFF     ");
+    
+      digitalWrite(RELAY2, HIGH);
+      lcd.setCursor ( 0, 2 );
+      lcd.print("HEATER : OFF   ");

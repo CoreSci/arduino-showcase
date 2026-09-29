@@ -1,0 +1,10 @@
+
+cat /dev/ttyS0
+
+cp /dev/ttyS0 /home/pi/Desktop/serial.txt
+
+dmesg | grep tty
+
+#to test
+
+echo "hello" > /dev/ttyS1
