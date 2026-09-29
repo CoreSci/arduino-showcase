@@ -17,6 +17,7 @@ A structured library of embedded systems work — from small reusable building b
 | Project | What it does |
 |---|---|
 | [`mash-controller`](projects/mash-controller/) | Heats a brewing mash to a set-point, holds it for a timed number of cycles with a pump circulating, then shuts off. Includes a sensor-calibration sketch. |
+| [`multichannel-voltage-logger`](projects/multichannel-voltage-logger/) | Logs five DC voltages (three through calibrated dividers for rails above 5 V) to an SD card as CSV. Includes a tested host-side Python script that plots the log and flags clipping and malformed lines. *Adapted from the Arduino SD "Datalogger" example* |
 | [`system-controller`](projects/system-controller/) | Keypad + LCD control of four relays and two DS18B20 probes, an automatic temperature hold, and CSV serial telemetry to a Raspberry Pi. Includes a host-side monitor script and an archived v1. |
 
 ## Snippets
