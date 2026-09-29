@@ -27,6 +27,21 @@ A structured library of embedded systems work — from small reusable building b
 | [`relay-dual-toggle`](snippets/actuators/relay-dual-toggle/) | actuators: 2-channel relay wiring test |
 | [`bluetooth-gps-nmea`](snippets/communication/bluetooth-gps-nmea/) | communication: decode `$GPRMC` from a serial/Bluetooth GPS on the host side (Python) |
 
+## Learning with kids
+
+[`learning-with-kids/`](learning-with-kids/) holds eight hands-on lessons for a child aged 6–8 with a parent. Parent guides are **in French**; code and comments are in English. All eight use one shared breadboard wiring: 4 LEDs, 2 buttons, a potentiometer and a piezo buzzer, USB-powered only.
+
+| # | Lesson | Big idea |
+|---|---|---|
+| 1 | Hello, light! *(Bonjour, lumière !)* | on/off and waiting |
+| 2 | Secret Morse flashlight, with sound | sequences and codes |
+| 3 | Magic knob light meter | a sensor gives a number |
+| 4 | Button tug-of-war, with sound | a two-player score |
+| 5 | Secret-code lock | exact sequences |
+| 6 | Copy my timing | stopwatch and memory |
+| 7 | Toy-car parking lot | counting up and down |
+| 8 | Robot turn signals | cause and effect |
+
 Third-party libraries used by these sketches (Keypad, OneWire, DallasTemperature, LiquidCrystal_I2C) come from the Arduino Library Manager and aren't vendored here.
 
 ## Philosophy
