@@ -44,6 +44,8 @@ A structured library of embedded systems work — from small reusable building b
 
 Third-party libraries used by these sketches (Keypad, OneWire, DallasTemperature, LiquidCrystal_I2C) come from the Arduino Library Manager and aren't vendored here.
 
+**Linux: "Permission denied" on `/dev/ttyUSB0` or `/dev/ttyACM0` when uploading?** Add your user to the serial-port group once, with `sudo usermod -aG dialout $USER` (the group is `uucp` on Arch-based systems), then log out and back in. Avoid `sudo chmod a=rw /dev/ttyUSB0`: it opens the port to every user, and it's lost whenever the board is unplugged.
+
 ## Philosophy
 
 This library bridges two things: focused embedded systems work from a prototyping period, and a present-day motivation to build and learn hands-on with family. The `snippets/` and `projects/` folders are the reference and portfolio layers; `learning-with-kids/` is where things get simplified and shared.
