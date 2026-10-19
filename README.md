@@ -9,6 +9,7 @@ A structured library of embedded systems work — from small reusable building b
   - `actuators/` — Driving motors, servos, relays, etc.
   - `communication/` — Serial, I2C, SPI, wireless communication patterns.
 - `projects/` — Complete builds, one folder per project, each with its own README, wiring diagram, and code.
+- `concepts/` — Intermediate-level units on the ideas underneath most embedded projects (state machines, analog input), each with a sketch and a technical README.
 - `learning-with-kids/` — Simplified, heavily annotated versions of concepts above, designed for building alongside a child.
 - `lib/` — Custom reusable Arduino libraries developed along the way.
 
